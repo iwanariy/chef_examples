@@ -1,3 +1,3 @@
-force_override['user']['name'] = 'admin'
-force_override['user']['home'] = '/home/admin'
-force_override['user']['shell'] = '/bin/bash'
+force_override['centos']['user']['name'] = 'admin'
+force_override['centos']['user']['home'] = '/home/admin'
+force_override['centos']['user']['shell'] = '/bin/bash'
