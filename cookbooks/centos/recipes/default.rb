@@ -4,4 +4,4 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 #
-include_recipe "centos::user"
+include_recipe 'centos::user'
