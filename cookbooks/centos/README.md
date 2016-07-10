@@ -1,4 +1,3 @@
-# centos
-
-TODO: Enter the cookbook description here.
-
+centos
+======
+This is a recipe for basic centos server
