@@ -4,6 +4,7 @@ template '/etc/ssh/sshd_config' do
   group 'root'
   mode '0600'
   variables({
-    :port => node["centos"]["sshd_config"]["port"]
+    :port => node["centos"]["sshd_config"]["port"],
+    :PasswordAuthentication => node["centos"]["sshd_config"]["PasswordAuthentication"]
   })
 end
